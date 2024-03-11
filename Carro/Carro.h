@@ -14,9 +14,9 @@ class Carro {
         public: 
         //Devemos deixar como public para podermos acessar os métodos a parti da main
             void ler();
-            void imprimir();    
+            // void imprimir();    
 
-            string getModelo();
+            // string getModelo();
 };
 
 //Métodos
@@ -35,18 +35,18 @@ void Carro::ler() {
     cout << endl;
 }
 
-void  Carro::imprimir() {
-    cout << "Imprimir dados de carro" << endl;
-    cout << "ID: " << id << endl; 
-    cout << "Modelo: " << modelo << endl;
-    cout << "Ano: " << ano << endl;
-    cout << "Cor: " << cor << endl;
-    cout << "Valor: R$ " << valor << endl;
-    cout << endl;
-}
+// void  Carro::imprimir() {
+//     cout << "Imprimir dados de carro" << endl;
+//     cout << "ID: " << id << endl; 
+//     cout << "Modelo: " << modelo << endl;
+//     cout << "Ano: " << ano << endl;
+//     cout << "Cor: " << cor << endl;
+//     cout << "Valor: R$ " << valor << endl;
+//     cout << endl;
+// }
 
-void Carro::getModelo() {
-    return this->modelo;
-}
+// void Carro::getModelo() {
+//     return this->modelo;
+// }
 
 // void desconto();

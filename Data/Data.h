@@ -46,9 +46,9 @@ Data::Data(int dia, int mes, int ano) { // <-- melhor jeito de fazer
 }
 
 // Data::Data() {
-//     this->dia = 1;
-//     this->mes = 1;
-//     this->ano = 1900;
+//     dia = 1;
+//     mes = 1;
+//     ano = 1900;
 // }
 
 // Data::Data(int dia, int mes, int ano) {
